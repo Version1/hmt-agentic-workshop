@@ -27,7 +27,7 @@ The steps below show how to run each agent individually. Use this format when yo
 Before the session, run `/data-ingestor` so that `outputs/data_summary.json` and `outputs/ingest_report.md` already exist.
 
 During the demo:
-1. Open `outputs/data_summary.json` — point to the anomaly flags (HMRC August spike, DWP missing GDP value).
+1. Open `outputs/data_summary.json` — point to the anomaly flags (TCA August spike, SWA missing GDP value).
 2. Open `outputs/ingest_report.md` — read one sentence showing it's written for non-technical readers.
 3. Show the handoff instruction at the bottom of the agent file: "the next step is to use `/data-visualiser`".
 
@@ -58,9 +58,9 @@ Show the `outputs/` directory with all files. Summarise: one initial instruction
 
 ## The dataset
 
-36 rows covering HMRC, DWP, and MOD, January–December 2023. Two deliberate anomalies:
-- **HMRC August spike**: £5,400m vs average £4,370m (23.6% above)
-- **DWP August missing GDP**: `gdp_growth_pct` is blank
+536 rows covering DSA, SWA, and TCA from 1995-01 to 2023-12. The demo focuses on the 2023 portion (36 rows across 3 departments). Two deliberate anomalies:
+- **TCA August 2023 spike**: £5,400m vs average £4,370m (23.6% above)
+- **SWA August 2023 missing GDP**: `gdp_growth_pct` is blank
 
 ## Pre-flight checklist
 
