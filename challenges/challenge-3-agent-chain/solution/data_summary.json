@@ -1,0 +1,64 @@
+{
+  "total_rows": 36,
+  "missing_values": {
+    "count": 1,
+    "detail": [
+      {"row": 20, "column": "gdp_growth_pct", "department": "DWP", "month": "2023-08"}
+    ]
+  },
+  "anomalies": {
+    "count": 1,
+    "detail": [
+      {
+        "row": 8,
+        "department": "HMRC",
+        "month": "2023-08",
+        "column": "expenditure_gbp_millions",
+        "value": 5400,
+        "department_average": 4370,
+        "deviation_pct": 23.6,
+        "reason": "Expenditure 23.6% above department average"
+      }
+    ]
+  },
+  "departments": ["HMRC", "DWP", "MOD"],
+  "date_range": {"earliest": "2023-01", "latest": "2023-12"},
+  "cleaned_data": [
+    {"month": "2023-01", "department": "HMRC", "expenditure_gbp_millions": 4200, "gdp_growth_pct": 0.3, "category": "tax_collection", "flagged": false, "flag_reason": ""},
+    {"month": "2023-02", "department": "HMRC", "expenditure_gbp_millions": 4180, "gdp_growth_pct": 0.2, "category": "tax_collection", "flagged": false, "flag_reason": ""},
+    {"month": "2023-03", "department": "HMRC", "expenditure_gbp_millions": 4250, "gdp_growth_pct": 0.4, "category": "tax_collection", "flagged": false, "flag_reason": ""},
+    {"month": "2023-04", "department": "HMRC", "expenditure_gbp_millions": 4220, "gdp_growth_pct": 0.3, "category": "tax_collection", "flagged": false, "flag_reason": ""},
+    {"month": "2023-05", "department": "HMRC", "expenditure_gbp_millions": 4300, "gdp_growth_pct": 0.5, "category": "tax_collection", "flagged": false, "flag_reason": ""},
+    {"month": "2023-06", "department": "HMRC", "expenditure_gbp_millions": 4280, "gdp_growth_pct": 0.4, "category": "tax_collection", "flagged": false, "flag_reason": ""},
+    {"month": "2023-07", "department": "HMRC", "expenditure_gbp_millions": 4350, "gdp_growth_pct": 0.6, "category": "tax_collection", "flagged": false, "flag_reason": ""},
+    {"month": "2023-08", "department": "HMRC", "expenditure_gbp_millions": 5400, "gdp_growth_pct": 0.5, "category": "tax_collection", "flagged": true, "flag_reason": "Expenditure 23.6% above department average"},
+    {"month": "2023-09", "department": "HMRC", "expenditure_gbp_millions": 4320, "gdp_growth_pct": 0.4, "category": "tax_collection", "flagged": false, "flag_reason": ""},
+    {"month": "2023-10", "department": "HMRC", "expenditure_gbp_millions": 4290, "gdp_growth_pct": 0.3, "category": "tax_collection", "flagged": false, "flag_reason": ""},
+    {"month": "2023-11", "department": "HMRC", "expenditure_gbp_millions": 4310, "gdp_growth_pct": 0.4, "category": "tax_collection", "flagged": false, "flag_reason": ""},
+    {"month": "2023-12", "department": "HMRC", "expenditure_gbp_millions": 4340, "gdp_growth_pct": 0.5, "category": "tax_collection", "flagged": false, "flag_reason": ""},
+    {"month": "2023-01", "department": "DWP", "expenditure_gbp_millions": 8100, "gdp_growth_pct": 0.3, "category": "welfare", "flagged": false, "flag_reason": ""},
+    {"month": "2023-02", "department": "DWP", "expenditure_gbp_millions": 8050, "gdp_growth_pct": 0.2, "category": "welfare", "flagged": false, "flag_reason": ""},
+    {"month": "2023-03", "department": "DWP", "expenditure_gbp_millions": 8200, "gdp_growth_pct": 0.4, "category": "welfare", "flagged": false, "flag_reason": ""},
+    {"month": "2023-04", "department": "DWP", "expenditure_gbp_millions": 8150, "gdp_growth_pct": 0.3, "category": "welfare", "flagged": false, "flag_reason": ""},
+    {"month": "2023-05", "department": "DWP", "expenditure_gbp_millions": 8250, "gdp_growth_pct": 0.5, "category": "welfare", "flagged": false, "flag_reason": ""},
+    {"month": "2023-06", "department": "DWP", "expenditure_gbp_millions": 8180, "gdp_growth_pct": 0.4, "category": "welfare", "flagged": false, "flag_reason": ""},
+    {"month": "2023-07", "department": "DWP", "expenditure_gbp_millions": 8300, "gdp_growth_pct": 0.6, "category": "welfare", "flagged": false, "flag_reason": ""},
+    {"month": "2023-08", "department": "DWP", "expenditure_gbp_millions": 8220, "gdp_growth_pct": null, "category": "welfare", "flagged": true, "flag_reason": "Missing gdp_growth_pct value"},
+    {"month": "2023-09", "department": "DWP", "expenditure_gbp_millions": 8280, "gdp_growth_pct": 0.4, "category": "welfare", "flagged": false, "flag_reason": ""},
+    {"month": "2023-10", "department": "DWP", "expenditure_gbp_millions": 8190, "gdp_growth_pct": 0.3, "category": "welfare", "flagged": false, "flag_reason": ""},
+    {"month": "2023-11", "department": "DWP", "expenditure_gbp_millions": 8260, "gdp_growth_pct": 0.4, "category": "welfare", "flagged": false, "flag_reason": ""},
+    {"month": "2023-12", "department": "DWP", "expenditure_gbp_millions": 8310, "gdp_growth_pct": 0.5, "category": "welfare", "flagged": false, "flag_reason": ""},
+    {"month": "2023-01", "department": "MOD", "expenditure_gbp_millions": 3600, "gdp_growth_pct": 0.3, "category": "defence", "flagged": false, "flag_reason": ""},
+    {"month": "2023-02", "department": "MOD", "expenditure_gbp_millions": 3580, "gdp_growth_pct": 0.2, "category": "defence", "flagged": false, "flag_reason": ""},
+    {"month": "2023-03", "department": "MOD", "expenditure_gbp_millions": 3620, "gdp_growth_pct": 0.4, "category": "defence", "flagged": false, "flag_reason": ""},
+    {"month": "2023-04", "department": "MOD", "expenditure_gbp_millions": 3590, "gdp_growth_pct": 0.3, "category": "defence", "flagged": false, "flag_reason": ""},
+    {"month": "2023-05", "department": "MOD", "expenditure_gbp_millions": 3640, "gdp_growth_pct": 0.5, "category": "defence", "flagged": false, "flag_reason": ""},
+    {"month": "2023-06", "department": "MOD", "expenditure_gbp_millions": 3610, "gdp_growth_pct": 0.4, "category": "defence", "flagged": false, "flag_reason": ""},
+    {"month": "2023-07", "department": "MOD", "expenditure_gbp_millions": 3660, "gdp_growth_pct": 0.6, "category": "defence", "flagged": false, "flag_reason": ""},
+    {"month": "2023-08", "department": "MOD", "expenditure_gbp_millions": 3630, "gdp_growth_pct": 0.5, "category": "defence", "flagged": false, "flag_reason": ""},
+    {"month": "2023-09", "department": "MOD", "expenditure_gbp_millions": 3600, "gdp_growth_pct": 0.4, "category": "defence", "flagged": false, "flag_reason": ""},
+    {"month": "2023-10", "department": "MOD", "expenditure_gbp_millions": 3570, "gdp_growth_pct": 0.3, "category": "defence", "flagged": false, "flag_reason": ""},
+    {"month": "2023-11", "department": "MOD", "expenditure_gbp_millions": 3620, "gdp_growth_pct": 0.4, "category": "defence", "flagged": false, "flag_reason": ""},
+    {"month": "2023-12", "department": "MOD", "expenditure_gbp_millions": 3650, "gdp_growth_pct": 0.5, "category": "defence", "flagged": false, "flag_reason": ""}
+  ]
+}

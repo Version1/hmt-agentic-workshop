@@ -1,0 +1,15 @@
+month,department,expenditure_gbp_millions,gdp_growth_pct,category
+2024-01,HMRC,4200,0.4,tax_collection
+2024-02,HMRC,4150,,tax_collection
+2024-03,HMRC,4300,0.5,tax_collection
+2024-04,HMRC,4250,0.4,tax_collection
+2024-01,DWP,8100,0.4,welfare
+2024-02,DWP,,0.3,welfare
+2024-03,DWP,8200,0.5,welfare
+2024-04,DWP,8150,0.4,welfare
+2024-01,MOD,3600,0.4,defence
+2024-02,MOD,3550,0.3,defence
+2024-03,MOD,3700,0.5,defence
+2024/04,MOD,3650,0.4,defence
+2024-04,MOD,3650,0.4,defence
+2024-01,HMRC,,0.4,tax_collection
