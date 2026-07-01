@@ -1,3 +1,22 @@
+# macOS
 .DS_Store
+
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Generated outputs (runtime artefacts)
+challenges/challenge-3-agent-chain/outputs/*.html
+challenges/challenge-3-agent-chain/outputs/*.png
+challenges/challenge-3-agent-chain/outputs/*.json
+challenges/challenge-3-agent-chain/outputs/*.md
+
+# Editor
+.vscode/
+.idea/
+*.swp
