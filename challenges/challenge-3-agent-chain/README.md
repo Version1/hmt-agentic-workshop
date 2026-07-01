@@ -17,5 +17,3 @@ Run the full pipeline in one step:
 ```
 /pipeline-orchestrator
 ```
-
-Or run each agent individually in sequence — see [facilitator.md](facilitator.md) for the step-by-step walkthrough, talking points, and pre-flight checklist.

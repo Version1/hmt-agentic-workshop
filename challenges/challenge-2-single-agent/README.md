@@ -11,5 +11,3 @@ In Copilot Chat (Agent mode), type:
 ```
 
 The agent reads `data/messy_expenditure.csv`, identifies issues (nulls, malformed dates, duplicates), fixes them, and writes a cleaned CSV and a cleaning report.
-
-See [facilitator.md](facilitator.md) for delivery notes and talking points.
