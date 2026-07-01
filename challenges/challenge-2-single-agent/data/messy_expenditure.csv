@@ -1,15 +1,1011 @@
 month,department,expenditure_gbp_millions,gdp_growth_pct,category
-2024-01,HMRC,4200,0.4,tax_collection
-2024-02,HMRC,4150,,tax_collection
-2024-03,HMRC,4300,0.5,tax_collection
-2024-04,HMRC,4250,0.4,tax_collection
-2024-01,DWP,8100,0.4,welfare
-2024-02,DWP,,0.3,welfare
-2024-03,DWP,8200,0.5,welfare
-2024-04,DWP,8150,0.4,welfare
-2024-01,MOD,3600,0.4,defence
-2024-02,MOD,3550,0.3,defence
-2024-03,MOD,3700,0.5,defence
-2024/04,MOD,3650,0.4,defence
-2024-04,MOD,3650,0.4,defence
-2024-01,HMRC,,0.4,tax_collection
+2024-10,HCD,-,0.2,housing
+2023-3,ESA,6398,0.6,education
+2023-03,EPB,2060,-0.1,environment
+2024-06,HSE,,0.5,health
+2024-01,EPB,2143,NULL,environment
+2024-11,ITB,5167,,infrastructure
+2023-10,environment protection bureau,1900,0.5,environment
+2022-02,HSE,£9174,n/a,health
+2023-05,NDO,3741M,0.8,defence
+2023-02,HCD,NULL,0.5,housing
+2023-09,RCA,4113,-0.1,tax_collection
+2024-11,RCA,4185,0.7,tax_collection
+2023-02,SBD,8149,0.0,welfare benefits
+2022-05,HCD,,0.4,housing communities
+2022-03-01,DTO,#N/A,1.2,digital
+2022-6,EPB,2097,-,env
+2023-4,Revenue Collections Agency,4330,0.2,tax_collection
+2022-04,RCA,4315,1.0,tax_collection
+2023-05,housing & communities directorate,4654,0.8,housing
+2024-04,EPB,2255,0.0,environment
+Sep-2023,ESA,6135,,education
+2023-11,HSE,-,1.0,health
+2024-04,DTO,n/a,0.0,digital
+Jul-2023,EPB,2301,0.6,Environment
+2022-02,ITB,,0.6,infrastructure
+2024-05,HCD,4991,0.6,housing
+2023-12,HCD,#N/A,#N/A,housing
+2024-07-01,SBD,8238,150,welfare
+2023-07,education standards authority,-,1.3,education
+2022-09,NDO,3648,,defence
+2023-09,JCS,,-0.0,justice
+2022-06-01,SBD,8119 ,1.3,welfare
+2023-08,SBD,8021,0.9,welfare
+2024-08,ITB,5233,-0.1,infrastructure
+2023-06,JCS,2657,-0.2,justice
+2024-06,SBD,8276,0.6,welfare
+2024-03,ESA,#N/A,0.5,education
+2023/12,National Defence Office ,3489,,National Defence
+2023-04,JCS,2814,#N/A,justice
+2023-08,Education Standards Authority ,"""6,310""",0.7,edu
+2022-07,JCS,2990,0.1,justice
+2023-07,education standards authority,-,1.1,education
+2024/12,ITB,4914,0.5,infrastructure
+12-2022,INFRASTRUCTURE & TRANSPORT BUREAU,5106,0.8,infrastructure
+2024-07,HCD,4772,0.8,housing
+2024-12,ESA,£6208,,education
+2022-11,NDO,3537,0.7,Defence
+2023-10,JCS,2875,1.0,justice
+2023-04,DTO,1040,1.0,digital
+2024-10,EPB,-1907,1.0,environment
+2024-03,NDO,3686,0.6,defence
+Jan-2023,HSE,9246,0.1,health
+2022/10,EPB,2262,0.9,environment
+2022-11,DTO,1208,0.3,digital
+2024-03,ITB,5286,,infrastructure
+2022-10,NDO,,0.3,defence
+2023-12,ESA,6207,0.4,education
+2022/10,EPB,2262,0.7,environment
+2023-05,DTO,1079,0.0,DIGITAL
+2022-10,NDO,,0.3,defence
+2023-08,Education Standards Authority ,6300,0.9,edu
+2022-06,DTO,1211,0.6,digital
+Jan-2024,Education Standards Authority,6258,-0.1,education
+2024-02,HCD,4654,0.7,HOUSING
+2022-06,ESA,6156,0.0,EDUCATION
+2022/05,ITB,4923,0.1,infrastructure
+2024-08,DTO,1064,0.5,digital
+Nov-2023,JCS,2665,0.0,justice
+2024-09,ITB,£5298,0.9,infrastructure
+2023-01,SBD,7907,-100,welfare
+2024-07-01,SBD,8239,149.9,welfare
+2022-12,NDO,3730,-0.1,defence
+2024-08,HCD,4918M,0.0,housing
+2022-06,HCD,-4681,0.9,housing
+2023-12,hse,9000,0.3,health
+2023-10,HCD,4895,0.1,housing
+2023-08,NDO,3490,1.0,defence
+Jan-2023,JCS,2957,,justice
+07-2023,RCA,4353,1.1,tax_collection
+2023-02,HCD,NULL,0.6,housing
+2023-04,ESA,6209,0.5,education
+2022-02,HSE,£9174,n/a,health
+2024-6,ITB,5149,0.1,infrastructure
+Mar-2023,SBD,-8020,0.6,welfare
+2023-04,NDO,3437,-0.2,defence
+2023-3,ESA,6398,0.4,education
+2022-04,RCA,4325,1.0,tax_collection
+2024/12,DTO,1305,n/a,digital
+2024-04,EPB,2255,-0.2,environment
+2023-10,DTO,1022,0.8,digital
+2023-4,Revenue Collections Agency,4330,0.0,tax_collection
+09-2023,EPB,2174,n/a,environment
+2023-06,NDO,3426,0.0,defence
+2023-03,DTO,n/a,,digital
+2024-01-01,NDO,"""3,739""",0.8,defence
+2024-11,DTO,1374,0.6,Digital
+2023-11,HCD,-,0.4,housing
+2023-05,RCA,4360,0.1,tax_collection
+2023-08,ITB,4912,0.1,infrastructure
+2023-12,JCS,2861,0.5,JUSTICE
+2024-12-01,JCS,2864,1.0,justice
+2022-01,ITB,4952,0.7,infrastructure
+2023-01,SBD,7907,-99.9,welfare
+2022-07,EPB,2034,1.0,environment
+2023-05,NDO,3741M,0.9,defence
+2022-02,ITB,,0.8,infrastructure
+2023-9,DTO,1260,0.4,digital
+2022-07,ESA,6157,0.2,education
+2023-09,HCD,4742,,housing
+2024-01-01,RCA,,0.0,tax_collection
+2022-09,ESA,6344,1.1,education
+2024-12,EPB,2040,0.6,environment
+2023-10, National Defence Office,3705,0.4,defence
+2024-11,ITB,5167,,infrastructure
+2022-05,Social Benefits Directorate ,8017,1.0,welfare
+Apr-2023,HCD,4667,1.1,housing
+2022-07,JCS,2990,0.3,justice
+2024-07-01,SBD,8239,150.1,welfare
+2023-10,RCA,£4133,,tax_collection
+2023-11,EPB,2256,0.2,environment
+2023-12,HCD,#N/A,#N/A,housing
+2022-10,RCA,4102,0.8,tax_collection
+01-2024,ITB,5071,-0.1,infrastructure
+07-2024, Education Standards Authority,6208,0.5,education
+2022-01,NDO,3514,-0.2,defence
+2024-08,ESA,6202,1.0,education
+2023-01,HCD,4684,0.3,housing
+12-2022,INFRASTRUCTURE & TRANSPORT BUREAU,5111,0.8,infrastructure
+2023-07,ITB,4975,-99,infrastructure
+2024/12,ITB,4914,0.6,infrastructure
+2023-07,HCD,4707,0.9,housing
+2023-12,EPB,2126,0.7,environment
+2022-11,DTO,1208,0.2,digital
+2022-06,ITB,4970,,infrastructure
+2023-05,Health Services Executive ,,1.0,health
+Jan-2024,Education Standards Authority,6258,0.1,education
+2022-11,NDO,3542,0.8,Defence
+2024-10,NDO,"""3,750""",0.4,defence
+2024-06,EPB,2129,1.1,environment
+2022-12,HSE,9053,0.1,health
+2024-11,JCS,2644,0.2,justice
+2023-07,NDO,3584,0.6,defence
+2023-12,EPB,2126,0.7,environment
+2022-08,DTO,1250 ,-0.2,digital
+2023-05,ESA,,150,education
+2023-11,Revenue Collections Agency ,4379,0.8,tax_collection
+2024-11,HSE,,0.7,health
+Jun-2023,HSE,9022,-0.2,health
+2024-2,RCA,4212,1.0,tax_collection
+2022-11,HSE,N/A,1.2,health
+2024-2,SBD,,0.1,welfare
+2022-7,SBD,7905,0.8,welfare
+2024-12,HCD,4732,0.3,housing
+2024-01,JCS,2994,-0.1,justice
+2022-07,HCD,-4680,0.4,housing
+2024-05,JCS,2799,1.0,Justice
+2023-07,NDO,3589,0.6,defence
+2022-11,SBD,7936,0.6,welfare
+2024-5,ITB,5099,1.2,infrastructure
+2023-04,DTO,1035,1.0,digital
+Jan-2024,Education Standards Authority,6258,0.2,education
+2024-08,ITB,5233,-0.3,infrastructure
+2024-02,JCS,2625,0.8,justice
+2022-02,HSE,£9174,n/a,health
+2023-03,ITB,5204,-0.2,infrastructure
+2024-12,RCA,"""4,230""",0.1,tax_collection
+2024-11,HSE,,0.6,health
+2022-03,HSE,9185,0.6,health
+2023-03,EPB,2060,0.1,environment
+2022-03,SBD,8093,-0.1,welfare
+05-2023,SBD,8229,,welfare
+2024-01,HCD,4701,0.0,HOUSING
+2022-09,SBD,7940,N/A,welfare
+2022-06-01,SBD,8119 ,1.2,welfare
+09-2023,EPB,2174,n/a,environment
+2023-12,HCD,#N/A,#N/A,housing
+2024-05,HCD,4991,0.6,housing
+2023-08,DTO,1136 ,-0.2,digital
+2022-05,JCS,2981,0.8,courts
+2024-08,RCA,4383,0.5,TAX_COLLECTION
+2024-03,housing & communities directorate,4880,0.4,housing
+2022-10,ESA,6273,-0.1,education
+2024-06,NDO,£3708,1.1,defence
+2024-05,NATIONAL DEFENCE OFFICE,3505,-,defence
+2024/04,ITB,£5125,-0.3,infrastructure
+2022-04,RCA,4325,1.0,tax_collection
+2023-02,JCS,2694,-0.1,justice
+2024-03,ITB,5286,,infrastructure
+2024-01-01,HSE,9384,0.1,health
+2022-05,HSE,9290,0.9,health
+2024-11,ITB,5167,,infrastructure
+2024-04,DTO,n/a,0.1,digital
+2024-05,RCA,4208,0.3,tax_collection
+2024-07-01,SBD,8239,150,welfare
+2023-07,ITB,4975,-98.9,infrastructure
+12-2022,INFRASTRUCTURE & TRANSPORT BUREAU,5106,0.8,infrastructure
+2023-05,RCA,4350,0.2,tax_collection
+2024-04,NDO,3720,0.1,defence
+2022-04,HSE,9331,-0.3,health
+2024-09,ESA,,1.1,EDUCATION
+2022-4, Infrastructure & Transport Bureau,5258,1.1,infrastructure
+2022-04,EPB,2227M,0.8,Environment
+2023-10,ITB,5273,0.9,infrastructure
+2023-08,HSE,9170 ,0.9,health
+2023-03,NDO,,0.3,defence
+2024-11,HSE,,0.7,health
+2022-06,Revenue Collections Agency ,4134,0.8,tax_collection
+Nov-2023,JCS,2665,0.1,justice
+2024-11,JCS,2644,0.3,justice
+2024-01-01,RCA,,0.0,tax_collection
+Jan-2023,HSE,9246,0.1,health
+2023-12,Social Benefits Directorate ,8246,0.8,welfare
+2022-11,NDO,3542,0.9,Defence
+2022-07,NDO,3458,n/a,defence
+2023-04,JCS,2824,#N/A,justice
+2023-07,JCS,2808,1.2,justice
+02-2023,EPB,2160,-0.2,environment
+2024-11,SBD,8135,0.8,welfare
+2023-12,Social Benefits Directorate ,8245,0.8,welfare
+2022-08,HSE,-9082,0.6,health
+2024-02,HSE,9335,0.7,health services
+Oct-2022,HSE,9126,0.1,health
+2024-5,ITB,5099,1.1,infrastructure
+2023-08,SBD,8021,1.0,welfare
+2023-12,RCA,4340,1.0,tax_collection
+2024-12,ESA,£6208,,education
+2023-06,NDO,3426,-0.2,defence
+2022-08,JCS,£2757,-0.1,justice
+Jan-2023,HSE,9246,0.0,health
+2023-05,ITB,5053,1.1,infrastructure
+2022-08,NDO,3659,0.7,defence
+2023-11,SBD,,0.3,welfare
+2023-11,dto,1209M,0.3,digital
+2023-11,HSE,-,1.0,health
+2022-02,DTO,1194,-0.1,Digital
+2022-11,NDO,3542,0.7,Defence
+2022-02,SBD,8201,0.2,welfare
+2024-6,DTO,1370,0.0,digital
+07-2023,RCA,4353,1.1,tax_collection
+2023-04,JCS,2824,#N/A,justice
+07-2023,RCA,4353,0.9,tax_collection
+2022-08,ITB,"""4,978""",0.3,infrastructure
+2022-06,ITB,4972,,infrastructure
+2023-07,SBD,8180,-0.1,welfare
+2023-02,SBD,8149,0.0,welfare benefits
+2023-06,RCA,,1.0,tax_collection
+2022-11,HCD,4724,0.9,housing
+2022-09,SBD,7940,N/A,welfare
+2022-02,JCS,2622,0.8,justice
+2024-05-01,HSE,9300,1.1,health
+2022-07,JCS,2990,0.1,justice
+2023-08,HSE,9170 ,0.9,health
+2024-05,RCA,4208,0.3,tax_collection
+2023-12,hse,9000,0.2,health
+2022-11,HCD,4724,0.9,housing
+2022-05,HCD,,0.4,housing communities
+2023-05,Health Services Executive ,,1.1,health
+2022-12,HSE,9055,0.1,health
+2022-05,HSE,9291,1.0,health
+2022-02,EPB,"""2,076""",,environment
+2023-06,SBD,8158,0.6,welfare
+2022-08,HCD,4600,0.6,housing
+2023-05,ESA,,150,education
+2023-07,HCD,4707,0.8,housing
+Dec-2024,HSE,£9166,0.1,health
+2024-08,SBD,8079,-,welfare
+2024-08,Hse,9015,1.1,health
+07-2024, Education Standards Authority,6208,0.4,education
+2022-03,national defence office,£3550,1.0,defence
+2022-01,SBD,-8279,0.2,welfare
+2023-10,ITB,5273,0.9,infrastructure
+2022-11,ITB,5009,0.7,infrastructure
+2024-04,ESA,6271,0.2,education
+2023-11,HCD,-,0.2,housing
+2023-02,RCA,4284,0.7,tax_collection
+2022-09,RCA,4123,1.0,tax_collection
+2023-09,HCD,4742,,housing
+2024-01-01,HSE,9384,-0.1,health
+2022-02,DTO,1194,-0.1,Digital
+2024-07,JUSTICE & COURTS SERVICE,,0.5,justice
+2024-02,Environment Protection Bureau,2256,0.6,environment
+2022-11,HSE,N/A,1.1,health
+2023-06,ESA,6494,-0.1,education
+2022-12,NDO,3730,-0.1,defence
+2023-11,SBD,,0.3,welfare
+2022-09,ITB,5289,0.3,infrastructure
+2022-04,NDO,3507,0.7,defence
+2023-04,EPB,2094,0.2,env
+2022-12,SBD,7928,0.7,welfare
+2023-02,SBD,8149,0.0,welfare benefits
+2023-12,RCA,4335,1.1,tax_collection
+2022-02,ESA,6210,1.1,education
+2024-11,DTO,1384,0.6,Digital
+12-2022,EPB,1938,0.6,environment
+2022-07,JCS,2990,0.1,justice
+Jul-2023,EPB,2299,0.6,Environment
+2022-09,ESA,6343 ,1.1,education
+2023-02,NDO,3551,0.1,defence
+2023-03-01,HSE,9041,0.2,health
+2024-03,DTO,1081,0.8,digital
+2023-02,HSE,9276,-0.1,Health Services
+2023-06,RCA,,1.2,tax_collection
+2022-09,ITB,5289,0.5,infrastructure
+2024-01,EPB,2143,NULL,environment
+2024-11,NDO,3622,0.0,defence
+2024-10,EPB,-1906,1.0,environment
+2024-05,JCS,2799,1.1,Justice
+2022-05,EPB,2035,-0.1,environment
+2024-08,EPB,N/A,0.6,environment
+2022-03,EPB,2019,1.0,environment
+2023/12,National Defence Office ,3489,,National Defence
+2022-06,JCS,2839,,justice
+2023-11,NDO,3435M,1.1,defence
+2023-3,ESA,6398,0.6,education
+2023-01,ESA,6305,1.1,education
+2023-02,SBD,8149,-0.1,welfare benefits
+2024-09,ESA,,1.0,EDUCATION
+01-2023,ITB,4985,0.4,infrastructure
+2022-09,HCD,4674,0.2,housing
+2022-05,HCD,,0.3,housing communities
+2023-01,NDO,3785,#N/A,defence
+2022-04,JCS,2712,0.8,justice
+2023-05,DTO,1079,0.2,DIGITAL
+2024-10,HSE,9289,0.9,health
+2022-08,JCS,£2757,0.1,justice
+03-2023,JCS,2812,-0.0,justice
+2024-03,SBD,8137,0.7,welfare
+2022-05,RCA,4393,0.9,tax_collection
+2023-04,EPB,2089,0.2,env
+2024-10,HCD,-,0.3,housing
+2024-10,EPB,-1906,0.9,environment
+2024-10,SBD,8256,n/a,welfare
+2023-05,ESA,,150,education
+2024-11,HCD,4838,0.2,housing
+2024-01-01,HSE,9383,0.1,health
+2024-09,DTO,1192,0.4,digital
+2023-12,EPB,2126,0.7,environment
+2023-12,HCD,#N/A,#N/A,housing
+2022-03,national defence office,3545,1.0,defence
+2023-10, National Defence Office,3705,0.4,defence
+2024-02,HCD,4654,0.9,HOUSING
+2022-04,EPB,2227M,0.8,Environment
+2023-03,HCD,4761,1.1,housing
+2024-02,JCS,2625,0.6,justice
+2023-09,ITB,5237 ,0.1,transport
+2022-04,RCA,4325,1.0,tax_collection
+2022-03,RCA,,-0.0,Tax Collection
+Dec-2022,rca,4239,1.0,tax_collection
+2023-02,HSE,9277,-0.1,Health Services
+Jan-2022,DTO,"""1,258""",150,digital
+2022-04,HSE,9331,-0.1,health
+2024-07,RCA,,0.6,tax_collection
+2022-1,EPB,2187,-100,environment
+2022-09,DTO,1310,0.6,digital
+2024-01,SBD,7943,0.2,welfare benefits
+2022-09,EPB,2008,1.1,environment
+2024-11,JCS,2644,0.2,justice
+2022-5,DTO,1329,n/a,digital
+2023-02,RCA,4284,0.5,tax_collection
+2023-10,ESA,6361,-0.0,education
+2024-06,SBD,8276,0.6,welfare
+2023-08,EPB,2259,-0.0,environment
+2024-11,JCS,2644,0.2,justice
+2023-05,NDO,3741M,0.9,defence
+2024/10,RCA,4321,0.1,TAX_COLLECTION
+2023-12,ESA,6207,0.2,education
+2024-04,RCA,4326,0.2,tax_collection
+2022-09,ITB,5289,0.7,infrastructure
+2024-08,EPB,N/A,0.6,environment
+2024-02,JCS,2625,0.8,justice
+2024-02,DTO,1102,0.0,digital
+01-2023,ITB,4985,0.4,infrastructure
+2022-06,DTO,1216,0.6,digital
+2023-08,DTO,1136 ,0.0,digital
+2024-02,JCS,2625,0.6,justice
+2023-01,NDO,3785,#N/A,defence
+2024-08,NDO,3435,1.0,defence
+2023-01,HCD,4685,0.3,housing
+2023/04,SBD,8061,1.1,welfare_benefits
+2022-11,ITB,5009,0.4,infrastructure
+2022-10,HCD,N/A,0.1,housing
+2024-03,RCA,4062,0.4,tax_collection
+2022-08,ITB,"""4,978""",0.4,infrastructure
+2022-11,ITB,5009,0.6,infrastructure
+2022-01,NDO,3514,-0.1,defence
+2023-11,HSE,-,1.0,health
+2022-04,HCD,4973,-0.1,housing
+2022-02,ITB,,0.8,infrastructure
+2022-02,HCD,4772,0.1,housing
+2024-5,ITB,5099,1.3,infrastructure
+2024-08,DTO,1064,0.7,digital
+2024-05,NATIONAL DEFENCE OFFICE,3510,-,defence
+2022-11,HSE,N/A,1.1,health
+2024-06,NDO,£3708,1.2,defence
+2023-02,JCS,2700,-0.1,justice
+2024-02,ESA,#N/A,N/A,education
+2022/05,ITB,4933,0.1,infrastructure
+2024-01,SBD,7943,0.2,welfare benefits
+2023-3,ESA,6398,0.4,education
+2023-01,HCD,4684,0.3,housing
+2022-11,ITB,5009,0.4,infrastructure
+2022-05,HCD,,0.4,housing communities
+2022-07,DTO,#N/A,999,digital_tech
+2022-03,EPB,2019,1.0,environment
+2024-11,RCA,4185,0.7,tax_collection
+2024-04,DTO,n/a,0.2,digital
+2024-07-01,SBD,8239,150,welfare
+2022-07,ITB,5174,0.9,Infrastructure
+2023-03,NDO,,0.1,defence
+2022-08,SBD,8052,1.0,welfare
+2022-06-01,SBD,8119 ,1.1,welfare
+2022-05,HSE,9290,1.0,health
+2024-02,NDO,3756,0.2,defence
+2023-10,JCS,2875,0.9,justice
+2024-02,ITB,"""5,104""",,infrastructure
+2024-08, Justice & Courts Service,2711M,0.7,justice
+2022-10,ESA,6273,0.0,education
+2024-06,SBD,8276,0.5,welfare
+2024-6,DTO,1370,-0.1,digital
+2022-03,EPB,2019,0.8,environment
+2023-09,SBD,8135,0.3,welfare
+2022-02,ITB,,0.7,infrastructure
+2023-06,JCS,2657,-0.1,justice
+2022-08,DTO,1250 ,0.0,digital
+2023/12,National Defence Office ,3489,,National Defence
+2022-02,HSE,£9174,n/a,health
+2022-06,Revenue Collections Agency ,4134,0.9,tax_collection
+Apr-2022,Digital & Technology Office,1246,0.3,digital
+2024-05,EPB,2080,0.2,environment
+2024-4,sbd,8298,0.5,Welfare
+2022-04,ESA,£6425,0.0,education
+2022-08,ITB,"""4,978""",0.3,infrastructure
+2024-11,HCD,4838,0.4,housing
+2024-06,EPB,2139,1.2,environment
+2024-10,HCD,-,0.1,housing
+2023-09,SBD,8135,0.4,welfare
+2024-01,EPB,2143,NULL,environment
+2023-08,SBD,8021,1.0,welfare
+2023-08,Education Standards Authority ,"""6,310""",0.9,edu
+2023/06,HCD,4734,0.1,housing
+2023-04,ITB,5218 ,1.2,infrastructure
+2024-12,EPB,2041,0.4,environment
+2023-05,RCA,4360,0.2,tax_collection
+2023-05,DTO,1079,0.2,DIGITAL
+06-2022,NDO,3604,0.3,defence
+2023-11,NDO,3435M,1.1,defence
+2023-02,NDO,3552,0.1,defence
+2024-09,health services executive,"""9,159""",0.1,health
+2023-08,HCD,4976,0.9,housing
+2023-06,RCA,,1.1,tax_collection
+2022-04,HCD,4973,0.1,housing
+2022-06,ESA,6156,0.0,EDUCATION
+05-2023,JCS,2775M,0.3,justice
+2024-12,ESA,£6208,,education
+2022-04,EPB,2227M,0.7,Environment
+2024-05,JCS,2799,1.1,Justice
+2022-7,SBD,7905,0.8,welfare
+2023-08,NDO,3495,1.0,defence
+2023-06,ESA,6494,-0.0,education
+2022-02,ITB,,0.8,infrastructure
+2024-11,ITB,5169,,infrastructure
+2022-04,HCD,4975,0.1,housing
+2022-06,DTO,1216,0.5,digital
+2024-11,EPB,2065,1.0,environmental
+2024-03,ESA,#N/A,0.4,education
+2022-08,NDO,3658,0.7,defence
+2024-07,itb,5136,0.1,infrastructure
+2024-08,RCA,4388,0.6,TAX_COLLECTION
+2022-04,JCS,2712,0.8,justice
+2022-02,EPB,"""2,076""",,environment
+2023-12,hse,9000,0.0,health
+2022-12,SBD,7927,0.7,welfare
+2022-05,EPB,2035,-0.0,environment
+2023-04,EPB,2089,0.1,env
+2022-05,HCD,,0.4,housing communities
+2023-02,JCS,2695,-0.1,justice
+2024/10,RCA,4321,0.1,TAX_COLLECTION
+2024/12,ITB,4909,0.5,infrastructure
+2024/06,ESA,,0.4,education
+2024-12,EPB,2041,0.6,environment
+2022-03,JCS,2794,0.2,justice
+Apr-2023,HCD,4667,1.1,housing
+2024-02,DTO,1122,0.0,digital
+2022-06,JCS,2844,,justice
+2024-10,HCD,-,0.5,housing
+2022-09,ESA,6342,1.1,education
+12-2022,EPB,1938,0.2,environment
+2022-07,ESA,6157,0.2,education
+2024-12,NDO,3742,0.1,defence
+2024-12,ESA,£6208,,education
+2022-09,RCA,4122,1.0,tax_collection
+01-2023,EPB,,0.2,environment
+Jun-2023,HSE,9022,0.0,health
+2023-07,NDO,3589,0.6,defence
+09-2023,EPB,2174,n/a,environment
+03-2023,Rca,4034,0.7,TAX_COLLECTION
+2023-05,EPB,2209M,,environment
+2023-10,DTO,1022,0.8,digital
+Jan-2024,Education Standards Authority,6258,0.1,education
+2022-09,SBD,7940,N/A,welfare
+2022-02,EPB,"""2,076""",,environment
+Nov-2023,JCS,2665,0.3,justice
+2023-09,NDO,3516,0.2,National Defence
+2022-07,DTO,#N/A,999,digital_tech
+2024-03,ESA,#N/A,0.4,education
+2024-12,NDO,3742,0.3,defence
+2022-11,ITB,5009,0.6,infrastructure
+2022-11,ESA,6397,0.6,education
+2023-02,ESA,£6260,-0.2,EDUCATION
+2024/04,ITB,5130,-0.1,infrastructure
+2022-01,RCA,n/a,-0.0,tax_collection
+2022-04,NDO,3507,0.7,defence
+2023-06,NDO,3426,0.1,defence
+05-2023,SBD,8234,,welfare
+2023-01,DTO,1199,0.2,digital
+2022-02,HCD,4772,-0.1,housing
+09-2023,EPB,2174,n/a,environment
+2022-11,SBD,7936,0.5,welfare
+2022-5,DTO,1329,n/a,digital
+2022-05,JCS,2981,0.6,courts
+2024-01-01,HSE,9384,-0.1,health
+2023-08,RCA,4383,0.1,Tax_Collection
+2023-02,ITB,4929,0.6,infrastructure
+2024-11,ESA,,0.9,Education
+2024-06,RCA,4214,0.6,tax_collection
+2024/10,RCA,4321,0.1,TAX_COLLECTION
+2023/12,National Defence Office ,3491,,National Defence
+2024-07,itb,5136,0.2,infrastructure
+2023-10,HCD,4895,0.1,housing
+2022-11,HCD,4722,0.9,housing
+2023-02,HSE,9277,-0.2,Health Services
+2022-02,ESA,6210,0.9,education
+2022-08,NDO,3659,0.9,defence
+2023-10,HSE,9223,0.6,health
+02-2023,EPB,2160,-0.1,environment
+2023-10,ESA,6361,-0.0,education
+2022-01,NDO,3514,-0.0,defence
+2024-10,Education Standards Authority,6277M,0.5,education
+12-2022,EPB,1938,0.4,environment
+2023/12,National Defence Office ,3489,,National Defence
+2023-07-01,HSE,9021,0.2,health
+2024-05-01,HSE,9299,1.1,health
+2022-01-01,HCD,4647,0.1,housing
+2024-11,DTO,1374,0.6,Digital
+2023-03-01,HSE,9041,0.2,health
+2022-08,DTO,1250 ,-0.2,digital
+2022-02,ITB,,0.8,infrastructure
+2024-07,DTO,1194,0.1,digital
+2024/03,EPB,2143,0.4,environment
+2023-10,DTO,1022,0.7,digital
+Jan-2023,HSE,9246,0.3,health
+2024-08,Hse,9005,1.1,health
+2024-02,ITB,"""5,104""",,infrastructure
+2023-02,JCS,2695,-0.2,justice
+2024-09,justice & courts service,2903,0.8,justice
+2024-08,Hse,9015,1.0,health
+2024-02,ESA,#N/A,N/A,education
+2023-04,JCS,2824,#N/A,justice
+Jan-2023,JCS,2956,,justice
+2024-5,ITB,5099,1.1,infrastructure
+2024-08,Hse,9017,1.1,health
+2023-03-01,HSE,9041,0.4,health
+2023-06,SBD,8158,0.7,welfare
+2022-10,DTO,1112,-0.2,digital_tech
+2023-07,ITB,4975,-99,infrastructure
+2024/04,ITB,£5125,-0.1,infrastructure
+2024-06,HCD,4947,0.9,housing & communities
+2023-04,NDO,3436,-0.2,defence
+2024-10,SBD,8256,n/a,welfare
+2024-05,DTO,1246,-0.2,digital
+2022-02,ESA,6210,1.1,education
+2023-06,NDO,3426,-0.3,defence
+2022-06,ESA,6156,0.0,EDUCATION
+2023-07,education standards authority,-,1.1,education
+2022-07,RCA,4283,#N/A,tax_collection
+Mar-2023,SBD,-8020,0.6,welfare
+2024-01-01,NDO,"""3,739""",0.6,defence
+2023-11,Revenue Collections Agency ,4379,0.9,tax_collection
+05-2023,JCS,2775M,0.1,justice
+2022-07,NDO,3458,n/a,defence
+2024-12-01,JCS,2864,1.1,justice
+2023-05,ESA,,149.8,education
+2024-01-01,NDO,"""3,739""",0.7,defence
+2022-05,EPB,2036,-0.0,environment
+2023-12,Social Benefits Directorate ,8246,0.8,welfare
+Jan-2023,JCS,2956,,justice
+2023-06,RCA,,1.0,tax_collection
+2024-03,JCS,2984M,0.1,justice
+2022-04,HSE,9331,-0.2,health
+2023-10,JCS,2876,0.8,justice
+2024-08,EPB,N/A,0.6,environment
+2024-02,ITB,"""5,104""",,infrastructure
+2022-03,JCS,2789,0.2,justice
+2022-06,ITB,4970,,infrastructure
+2023-11,ITB,,0.7,infrastructure
+2022-09,HCD,4684,0.2,housing
+12-2022,housing & communities directorate,4671M,0.4,housing
+2022-05,NDO,3561,0.4,defence
+2023-10,JCS,2875,0.8,justice
+03-2023,JCS,2802,-0.0,justice
+2022-10,ESA,6273,-0.4,education
+2022-12,JCS,£2881,-0.3,Justice
+2024-06,EPB,2139,1.2,environment
+2024-06,JCS,,0.5,Justice
+2022-12,ESA,6197,-,education_standards
+2023-01,SBD,7902,-100,welfare
+2024-09,ESA,,1.1,EDUCATION
+2024-04,HCD,-4876,0.0,housing & communities
+2024-02,HCD,4652,0.9,HOUSING
+2023-05,ITB,5053,1.0,infrastructure
+2023-06,NDO,3426,-0.1,defence
+Jan-2022,DTO,1253,150,digital
+2024-03,JCS,2989,0.1,justice
+2023-12,RCA,4340,1.1,tax_collection
+2024/05,SBD,n/a,,welfare
+2022-4, Infrastructure & Transport Bureau,5259,1.1,infrastructure
+2024-06,JCS,,0.5,Justice
+2023/11,ESA,"""6,468""",1.1,edu
+2022-04,SOCIAL BENEFITS DIRECTORATE,7983,0.3,welfare
+2024-10,HCD,-,0.3,housing
+2024-6,DTO,1370,0.1,digital
+2022-07,DTO,#N/A,998.9,digital_tech
+2023-09,RCA,4113,0.1,tax_collection
+2023-04,EPB,2089,0.2,env
+2022-04,EPB,2227M,0.6,Environment
+2024-07,HCD,4772,0.9,housing
+2024-03,SBD,8137,0.9,welfare
+2022-06,HSE,9046,0.9,health
+2023-12,Social Benefits Directorate ,8246,0.8,welfare
+2022-02,EPB,2071,,environment
+2023-06,JCS,2657,-0.1,justice
+2023-08,JCS,2619,1.0,justice
+2024-03,housing & communities directorate,4880,0.5,housing
+2022-02,EPB,"""2,076""",,environment
+2022-01,JCS,2932,0.8,justice
+2024-08,EPB,N/A,0.6,environment
+2022-06,HSE,9046,0.9,health
+2022-07,DTO,#N/A,999,digital_tech
+2023-05,RCA,4360,0.0,tax_collection
+2024-9,NDO,3782,-,defence
+2024-05,DTO,1245,-0.2,digital
+2023-03,ITB,5204,-0.1,infrastructure
+2024/06,ESA,,0.3,education
+2023-03-01,HSE,9042,0.4,health
+2023-07,NDO,3589,0.7,defence
+2022-10,HCD,N/A,-0.1,housing
+2023-06,DTO,1226,0.6,digital
+2024-02,JCS,2625,0.6,justice
+2023-01,RCA,4333M,1.2,tax_collection
+2022-06,HCD,-4681,1.1,housing
+2023-09,HCD,4742,,housing
+2022/05,ITB,4933,0.1,infrastructure
+2024-09,DTO,1193,0.4,digital
+Mar-2023,SBD,-8020,0.4,welfare
+2024/09,HCD,4896,0.7,Housing
+2023-12,HCD,#N/A,#N/A,housing
+2024-02,Environment Protection Bureau,2256,0.4,environment
+2024-09,EPB,2266,0.1,environment
+2023-03-01,HSE,9041,0.4,health
+2023-07,JCS,2808,1.2,justice
+2023-07,DTO,1341,-0.1,digital_tech
+2022-12,JCS,£2881,-0.1,Justice
+2024-08,NDO,3435,0.9,defence
+2024-01-01,HSE,9384,0.1,health
+2023-01,RCA,4333M,1.2,tax_collection
+2022/10,EPB,2267,0.7,environment
+2023-02,DTO,,0.0,digital
+2023-12,ITB,5054 ,0.5,infrastructure
+2024/10,RCA,4326,0.1,TAX_COLLECTION
+2024-02,Environment Protection Bureau,2251,0.5,environment
+2024-07,HSE,9133,0.3,health
+2023/06,HCD,4734,0.0,housing
+2023-01,DTO,1201,0.2,digital
+2023-01,NDO,3784,#N/A,defence
+2023-02,ESA,£6260,-0.1,EDUCATION
+01-2024,ITB,5071,0.0,infrastructure
+2024-11,HSE,,0.7,health
+2023-01,RCA,4343,1.2,tax_collection
+2023-03,NDO,,0.1,defence
+2023-06,JCS,2662,-0.1,justice
+2022-01,ESA,6316,-0.3,education
+12-2022,EPB,1938,0.6,environment
+2024-09,RCA,N/A,0.9,tax_collection
+2024-04,NDO,3730,0.1,defence
+2023-07,JCS,2808,1.2,justice
+2023-02,JCS,2695,-0.1,justice
+2024/03,EPB,2143,0.4,environment
+2024/12,ITB,4914,0.3,infrastructure
+2024-04,NDO,3720,-0.1,defence
+2023-09,SBD,8135,0.3,welfare
+2024-11,DTO,1374,0.7,Digital
+2023-10,environment protection bureau,1900,0.5,environment
+Oct-2022,HSE,9126,-0.1,health
+2024-09,ITB,£5298,1.1,infrastructure
+2024-01-01,RCA,,-0.1,tax_collection
+2024-10,HSE,9284,0.9,health
+2024-03,JCS,2984M,0.2,justice
+2024-05,ESA,6110,1.0,education
+2023-10,RCA,£4133,,tax_collection
+2023-10,JCS,2875,0.8,justice
+2022-01,HSE,9279,-0.1,Health Services
+2024-11,HSE,,0.9,health
+2022-06,ESA,6156,0.0,EDUCATION
+2022-11,RCA,4016,1.1,tax_collection
+2022-03-01,HCD,-,0.1,housing
+2023-09,NDO,3516,0.1,National Defence
+2023-9,DTO,1261,0.4,digital
+2022-03,JCS,2794,0.2,justice
+2022-06,HCD,-4681,1.0,housing
+2022-06,JCS,2839,,justice
+2023-09,NDO,3516,0.3,National Defence
+2022-05,EPB,2034,-0.0,environment
+2023-08,ITB,4912,0.0,infrastructure
+Jul-2023,EPB,2299,0.6,Environment
+2022-02,ESA,6211,1.1,education
+2024-11,SBD,8135,0.8,welfare
+2023-12,DTO,1164,0.5,digital
+2022-02,HSE,£9174,n/a,health
+Apr-2022,Digital & Technology Office,1236,0.3,digital
+2023-10,DTO,1021,0.8,digital
+2024-10,EPB,-1906,1.0,environment
+2023-05,ITB,5053,1.1,infrastructure
+Sep-2023,ESA,6145,,education
+2023-06,EPB,,0.6,environment
+2022-12,SBD,7927,0.7,welfare
+2024-01,JCS,£2993,-0.1,justice
+2023-05,EPB,2209M,,environment
+2024-10,Education Standards Authority,6277M,0.7,education
+2023-4,Revenue Collections Agency,4330,0.1,tax_collection
+2022-07,ESA,6158,0.2,education
+2022-02,DTO,1194,-0.3,Digital
+03-2022,ITB,£5216,1.0,infrastructure
+2022-12,DTO,,0.4,Digital
+05-2023,SBD,8234,,welfare
+2023-11,SBD,,0.5,welfare
+2022-10,DTO,1112,0.0,digital_tech
+2022-07,EPB,2034,1.2,environment
+06-2022,NDO,3604,0.5,defence
+2023-02,NDO,3551,0.1,defence
+03-2023,JCS,2802,-0.1,justice
+2022-06,DTO,1216,0.4,digital
+2024-11,HSE,,0.9,health
+Oct-2022,JCS,2717,-0.1,justice
+2024-02,HSE,9335,0.8,health services
+2023-10,ESA,6361,0.1,education
+2023-02,SBD,8149,0.1,welfare benefits
+2024-09,RCA,N/A,0.8,tax_collection
+2023-10,SOCIAL BENEFITS DIRECTORATE,#N/A,-0.1,welfare
+2024/12,sbd,8137,0.6,welfare
+2024/12,sbd,8137,0.6,welfare
+2024-08, Justice & Courts Service,2711M,0.5,justice
+2024-12,HCD,4732,0.3,housing
+2023-3,ESA,6398,0.6,education
+2022-09,HCD,4684,0.3,housing
+12-2022,EPB,1938,0.4,environment
+2023-02,HSE,9277,0.1,Health Services
+2022-08,JCS,£2757,0.1,justice
+2023-07,JCS,2808,1.3,justice
+2022-11,DTO,1208,0.1,digital
+2024-04,EPB,2255,0.0,environment
+2022-03,ESA,6460,-0.1,education_standards
+2024/12,ITB,4914,0.5,infrastructure
+04-2023,health services executive,9051,-0.1,health
+2023-12,EPB,2126,0.7,environment
+2023-05,RCA,4362,0.2,tax_collection
+06-2022,NDO,3603,0.3,defence
+2023-04,NDO,3435,-0.2,defence
+2024-09,DTO,1192,0.4,digital
+2023-01,DTO,1199,0.2,digital
+2022-12,SBD,7927,0.7,welfare
+2023-11,dto,1209M,0.3,digital
+2023-11,HCD,-,0.2,housing
+2023-09,HCD,4742,,housing
+2024-02,Environment Protection Bureau,2261,0.5,environment
+2023-02,HSE,9272,-0.1,Health Services
+2022-6,EPB,2095,-,env
+2024-04,ESA,6271,0.2,education
+2023-02,RCA,4284,0.9,tax_collection
+2024-12,EPB,2041,0.6,environment
+2023-11,dto,1209M,0.3,digital
+2024-03,HSE,9313,0.9,health
+2022-11,RCA,4016,1.0,tax_collection
+2022-02,RCA,,0.1,tax_collection
+2022-11,EPB,1949,0.7,environment
+2024-09,ESA,,1.0,EDUCATION
+2024-10-01,JCS,2850M,,justice
+2023-11,HSE,-,1.1,health
+2023-12,RCA,4340,1.1,tax_collection
+2023-10,ITB,5273,1.1,infrastructure
+2022-10,HCD,N/A,0.1,housing
+2024-01,HCD,4691,0.0,HOUSING
+2023-06,Infrastructure & Transport Bureau,5111,1.0,infrastructure
+2022-05,ESA,6261,,education
+2023-11,dto,1210,0.3,digital
+2023-06,NDO,3427,-0.1,defence
+2023-06,RCA,,1.0,tax_collection
+2022-12,NDO,3730,-0.1,defence
+2022-02,DTO,1193,-0.1,Digital
+2023-03,ITB,5205,-0.1,infrastructure
+2024-02,HSE,9335,0.8,health services
+2024-09,SBD,7985,0.5,welfare_benefits
+2022-12,SBD,7927,0.7,welfare
+2024/10,RCA,4321,0.3,TAX_COLLECTION
+2023-09,JCS,,-0.0,justice
+2022-10,DTO,1112,-0.4,digital_tech
+2024-09,health services executive,"""9,159""",-0.0,health
+2022-12,HSE,9055,0.2,health
+2024-01,HCD,4701,-0.2,HOUSING
+Apr-2022,Digital & Technology Office,1236,0.3,digital
+2024-04,RCA,4326,0.2,tax_collection
+2023-11,dto,1209M,0.3,digital
+2024-03,SBD,8147,0.7,welfare
+12-2022,EPB,1938,0.4,environment
+2024-01,JCS,£2993,-0.1,justice
+2022-11,HSE,N/A,1.1,health
+2022-03,JCS,2796,0.2,justice
+2024-10,NDO,"""3,750""",0.5,defence
+2023-04,ITB,5218 ,1.1,infrastructure
+2023-09,JCS,,-0.2,justice
+2024/04,HSE,9146,0.2,Health
+2022-02,JCS,2622,0.8,justice
+2023-10,HSE,9223,0.4,health
+2024-11,HSE,,0.7,health
+2023-4,Revenue Collections Agency,4330,0.4,tax_collection
+2023-05,ITB,5053,1.0,infrastructure
+2024-6,ITB,5144,0.1,infrastructure
+2024-02,Environment Protection Bureau,2256,0.5,environment
+2024-1,DTO,1023,0.1,digital
+2024-08,RCA,4383,0.6,TAX_COLLECTION
+2024-9,NDO,3782,-,defence
+2024-10,HSE,9289,0.7,health
+2023-12,HCD,#N/A,#N/A,housing
+2022-07,DTO,#N/A,999,digital_tech
+2023-04,DTO,1035,1.0,digital
+2022-02,EPB,"""2,076""",,environment
+2022-02,EPB,"""2,076""",,environment
+2022-08,RCA,4054,1.0,Tax_Collection
+2024-09,EPB,2271,0.1,environment
+2024-04,EPB,2255,0.2,environment
+Jul-2023,EPB,2299,0.4,Environment
+2024-08,DTO,1064,0.5,digital
+2023-10,HSE,9223,0.6,health
+2022-09,DTO,1310,0.3,digital
+2024-03,housing & communities directorate,4880,0.4,housing
+2022-04,NDO,3507,0.8,defence
+2022-03-01,DTO,#N/A,1.2,digital
+2022-07,JCS,2988,0.1,justice
+2022-06,ITB,4970,,infrastructure
+2022-7,HEALTH SERVICES EXECUTIVE,9391,0.7,health
+2023-07-01,HSE,9021,0.2,health
+2022-09,HSE,9064,-0.0,HEALTH
+2024-06,JCS,,0.5,Justice
+2023-09,health services executive,9168,0.2,health
+2023-02,ITB,4939,0.6,infrastructure
+12-2022,housing & communities directorate,4671M,0.4,housing
+2023-04,NDO,3437,-0.2,defence
+2024-03,DTO,1081,0.8,digital
+Dec-2022,rca,4239,0.9,tax_collection
+2023-09,SBD,8135,0.5,welfare
+2024-05,DTO,1244,-0.2,digital
+Dec-2024,HSE,£9166,0.1,health
+2024-10,INFRASTRUCTURE & TRANSPORT BUREAU,,0.9,infrastructure
+2023-07,SBD,8179,0.1,welfare
+2022-01,ESA,6316,-0.3,education
+2024-06,HSE,,0.5,health
+2024-09,ITB,£5298,1.1,infrastructure
+01-2023,EPB,,0.2,environment
+2024-03,JCS,2984M,-0.1,justice
+2024-07,itb,5136,0.0,infrastructure
+2022-11,HCD,4724,1.0,housing
+2024/09,HCD,4894,0.7,Housing
+04-2023,health services executive,9051,-0.1,health
+2023-07,SBD,8179,-0.1,welfare
+2024-09,SBD,7985,0.6,welfare_benefits
+2023-10,JCS,2875,0.8,justice
+Sep-2023,ESA,6135,,education
+2024-1,DTO,1023,-0.1,digital
+2024-04,JCS,2699,-0.1,justice
+2024-09,EPB,2266,0.1,environment
+2024-07,DTO,1194,0.2,digital
+2023-02,JCS,2695,-0.1,justice
+2022-03,SBD,8093,0.1,welfare
+2024-10-01,JCS,2848,,justice
+2023-09,NDO,3516,0.3,National Defence
+2023-08,HCD,4976,0.8,housing
+2023-07,HCD,4707,0.6,housing
+2024/04,ITB,£5125,-0.1,infrastructure
+2024-11,NDO,3622,0.0,defence
+2024-12,ESA,£6208,,education
+2024-10,digital & technology office,1259,0.7,technology
+2022-04,JCS,2712,0.7,justice
+2024-02,NDO,3756,0.4,defence
+2023-05,ITB,5053,1.0,infrastructure
+2024-01-01,RCA,,0.0,tax_collection
+2024-10,HCD,-,0.5,housing
+2024-11,RCA,4185,0.7,tax_collection
+2022-03,EPB,2019,1.0,environment
+2022-01-01,HCD,4647,0.1,housing
+2024-08,SBD,8079,-,welfare
+02-2023,EPB,2160,-0.1,environment
+2024-10,EPB,-1906,1.1,environment
+2023-10,ITB,5273,0.9,infrastructure
+2023-09,RCA,4113,0.1,tax_collection
+2022-01,RCA,n/a,-0.0,tax_collection
+2023-05,EPB,2199,,environment
+2022-03,JCS,2794,0.2,justice
+2024-5,ITB,5097,1.1,infrastructure
+2022-07,EPB,2034,1.0,environment
+2023-10,HSE,9223,0.5,health
+2024-02,DTO,1112,0.0,digital
+2023-02,NDO,3551,0.2,defence
+2022-08,EPB,2085,N/A,environment
+2022-12,JCS,£2881,0.0,Justice
+2024-01-01,HSE,9384,0.1,health
+2024-07,HCD,4772,0.9,housing
+2024-04,JCS,2709,-0.1,justice
+2024-05,NATIONAL DEFENCE OFFICE,3505,-,defence
+2023-09,NDO,3516,0.1,National Defence
+2023-06,SBD,8158,0.5,welfare
+2022-7,HEALTH SERVICES EXECUTIVE,"""9,393""",0.7,health
+03-2023,JCS,2802,-0.0,justice
+2024-11,DTO,1374,0.6,Digital
+2024-05,EPB,2080,0.1,environment
+2024-07,EPB,2115,0.2,environment
+2024-04,ESA,6271,0.2,education
+2023-03,NDO,,0.1,defence
+Jul-2023,EPB,2299,0.4,Environment
+2024-09,EPB,2266,0.2,environment
+12-2022,EPB,1948,0.4,environment
+2023-06,Infrastructure & Transport Bureau,5116,1.0,infrastructure
+2024-12-01,JCS,2864,1.1,justice
+2023-07-01,HSE,9011,0.2,health
+2024-01,EPB,2143,NULL,environment
+2023-01,RCA,4333M,1.0,tax_collection
+2022-08,SBD,8053,1.0,welfare
+2022-02,ITB,,0.6,infrastructure
+2024-08,HCD,4918M,-0.2,housing
+2022-09,HCD,4684,0.2,housing
+2023/06,HCD,4734,-0.2,housing
+2022-09,NDO,3648,,defence
+2024-08,ITB,5233,-0.1,infrastructure
+2024-06,EPB,2139,1.1,environment
+2022-02,NDO,3403,0.9,defence
+2023-04,ESA,6209,0.5,education
+2022-09,HCD,4684,0.3,housing
+2024-10,NDO,"""3,750""",0.6,defence
+03-2023,JCS,2802,-0.2,justice
+2022-08,DTO,1240,-0.2,digital
+2022-01-01,HCD,4652,0.1,housing
+2022-10,ESA,6273,-0.2,education
+2024-04,HCD,-4875,-0.1,housing & communities
+2022-06,HCD,-4681,0.9,housing
+2022-10,SBD,8104,1.2,welfare
+2022-03-01,HCD,-,0.1,housing
+2022-11,ESA,6392,0.6,education
+2023-02,RCA,4284,0.7,tax_collection
+2022-4, Infrastructure & Transport Bureau,5259,1.1,infrastructure
+2024-05,RCA,4206,0.3,tax_collection
+2023-4,Revenue Collections Agency,4320,0.2,tax_collection
+2023-01,HCD,4684,0.3,housing
+2022-03-01,DTO,#N/A,1.2,digital
+2023-08,SBD,8021,1.0,welfare
+2022-09,JCS,,-100,JUSTICE
+2023-02,ESA,£6260,-0.1,EDUCATION
+2022-11,HSE,N/A,1.1,health
+2024-04,HCD,-4876,-0.1,housing & communities
+2023-10,HCD,4895,0.0,housing
+2022-06,HCD,-4681,0.9,housing
+2023-05,EPB,2209M,,environment
+2024-08,ESA,6202,1.0,education
+2023-05,DTO,1079,0.3,DIGITAL
+2022-01,ESA,6316,-0.2,education
+2022-10,ITB,5164,0.4,infrastructure
+2022-11,JCS,2781,0.4,justice
+2024-4,sbd,8298,0.5,Welfare
+2024-09,health services executive,"""9,159""",-0.0,health
+2023-09,SBD,8135,0.3,welfare
+2022-05,EPB,2035,-0.2,environment
+2024-04,NDO,3720,0.3,defence
+03-2023,JCS,2802,-0.1,justice
+2022-03,RCA,,0.2,Tax Collection
+2022-06,Revenue Collections Agency ,4134,0.6,tax_collection
+2022-05,RCA,4393,0.7,tax_collection
+2023-04,DTO,1035,1.0,digital
+2024/04,HSE,9146,0.1,Health
+2022-09,HSE,9064,-0.0,HEALTH
+2022-08,education standards authority,6498,1.1,education
+2024-11,RCA,4185,0.6,tax_collection
+2024-02,NDO,3756,0.3,defence
+2024-02,JCS,2625,0.7,justice
+2024-07,NDO,3729 ,0.4,defence
+Sep-2023,ESA,6134,,education
+2022-12,HSE,9055,0.2,health
+2022-09,DTO,1310,0.4,digital
+2024-04,HCD,-4876,-0.1,housing & communities
+2022-02,ITB,,0.8,infrastructure
+2022-04,ESA,6426,0.0,education
+2023-04,ESA,6207,0.5,education
+2023-08,RCA,4383,0.0,Tax_Collection
+2024-11,NDO,3622,0.0,defence
+2022-08,JCS,£2757,0.1,justice
+2022-09,ESA,6343 ,1.0,education
+2023-04,EPB,2084,0.2,env
+12-2022,housing & communities directorate,4671M,0.4,housing
+2023-12,ITB,5054 ,0.4,infrastructure
+2022-10,RCA,4102,0.8,tax_collection
+2023-05,housing & communities directorate,4654,0.8,housing
+2022-04,JCS,2712,0.6,justice
+2024-04,JCS,2709,-0.1,justice
+2022-03,HSE,9195,0.6,health

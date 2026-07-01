@@ -2,18 +2,18 @@
 
 ## Time
 
-~3 minutes live.
+~5 minutes live.
 
 ## What to show
 
 1. Open VS Code with this folder as the workspace root.
-2. Open `data/messy_expenditure.csv` — show the audience the problems (nulls, a bad date format, a duplicate row).
+2. Open `data/messy_expenditure.csv` — briefly scroll to show the audience the variety of problems (mixed date formats, sentinel nulls, formatting noise, category inconsistencies, duplicate rows).
 3. Open Copilot Chat in Agent mode.
 4. Type: `/data-cleaner`
 5. Watch the agent:
-   - Read the CSV
-   - Identify issues (it will log what it finds)
-   - Write a cleaned CSV and a report
+   - Read the CSV and scan all 1,010 rows
+   - Identify each category of issue and log counts
+   - Write a cleaned CSV and a detailed report
 6. Open `solution/cleaning_report.md` — show what it caught and fixed.
 
 ## Talking points
@@ -24,18 +24,35 @@
 - **Repeatable.** Run this on next month's file with zero changes.
 - **Next step:** What if you chained multiple agents together? That's Challenge 3.
 
-## The messy data (intentional issues)
+## The messy data — issue categories
 
-| Issue | Location |
-|-------|----------|
-| Missing `gdp_growth_pct` | Row 2 (HMRC, Feb) |
-| Missing `expenditure_gbp_millions` | Row 6 (DWP, Feb) |
-| Missing `expenditure_gbp_millions` | Row 14 (second HMRC January entry — missing expenditure) |
-| Malformed date `2024/04` | Row 12 (MOD, Apr) |
-| Exact duplicate row | Row 13 (MOD, Apr — becomes a duplicate of row 12 after the date is corrected) |
+The dataset contains ~1,010 rows across 10 fictitious departments (2022–2024). All department names are synthetic — no real government data is used.
 
-## Expected output
+| Issue type | What it looks like | Approx. count |
+|------------|-------------------|---------------|
+| Missing values — blank | Empty cell | ~50 cells |
+| Missing values — sentinel | `NULL`, `N/A`, `n/a`, `#N/A`, `-` | ~40 cells |
+| Malformed dates | `2023/05`, `Sep-2023`, `2022-6`, `2024-07-01` | ~80 rows |
+| Expenditure formatting | `£4200`, `"4,200"`, `4200M`, `4200 ` | ~60 cells |
+| Negative expenditure | `-3200` (sign-flip data entry error) | ~10 rows |
+| Out-of-range GDP growth | `150`, `-99` | ~8 rows |
+| Category inconsistencies | `Welfare`, `WELFARE`, `welfare benefits`, `welfare_benefits` | ~70 cells |
+| Whitespace / case in dept name | ` RCA`, `rca`, `Revenue Collections Agency` | ~55 cells |
+| Exact duplicate rows | Identical rows (re-submitted extracts) | ~200 rows |
+| Near-duplicate rows | Same dept/month, expenditure off by ≤10 | ~150 rows |
+| GDP drift duplicates | Same dept/month, GDP off by ≤0.2 | ~300 rows |
 
-See `solution/` for the cleaned CSV and cleaning report.
+## Departments in the dataset
 
-**Note:** The cleaned file retains two HMRC January 2024 entries because the source data had two. The agent fills the missing expenditure value (4225) and keeps the row — it does not merge or deduplicate rows that differ in content.
+| Code | Full name | Category |
+|------|-----------|----------|
+| RCA | Revenue Collections Agency | tax_collection |
+| SBD | Social Benefits Directorate | welfare |
+| NDO | National Defence Office | defence |
+| ITB | Infrastructure & Transport Bureau | infrastructure |
+| HSE | Health Services Executive | health |
+| ESA | Education Standards Authority | education |
+| HCD | Housing & Communities Directorate | housing |
+| DTO | Digital & Technology Office | digital |
+| EPB | Environment Protection Bureau | environment |
+| JCS | Justice & Courts Service | justice |
