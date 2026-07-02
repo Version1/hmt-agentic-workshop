@@ -21,5 +21,3 @@ challenges/challenge-3-agent-chain/outputs/*.md
 .idea/
 *.swp
 
-# Local AI assistant config
-CLAUDE.md
